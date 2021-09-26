@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
+import { Link } from 'react-router-dom';
 
 function HeroSection({
     lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart
@@ -10,10 +11,9 @@ function HeroSection({
                <div className="row home__hero-row" style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
                     <div className="col">
                         <div className="home__hero-text-wrapper">
-                            <div className="top-line">{topLine}</div>
                             <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                            <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>Dann klicken sie <a className='hero__link' href="/about">hier.</a></p>
-                        </div>
+                            <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>Dann klicken sie <Link to="/About" className="hero__link">hier</Link></p>
+                    </div>
                     </div>
                     <div className="col">
                         <div className="home__hero-img-wrapper">

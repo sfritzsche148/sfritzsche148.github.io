@@ -19,7 +19,7 @@ function Navbar() {
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              <TiCodeOutline className='navbar-icon' />
+            <TiCodeOutline className='navbar-icon' />
               Sebastian Fritzsche
             </Link>
             <div className='menu-icon' onClick={handleClick}>

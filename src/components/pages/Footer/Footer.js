@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import {
   FaInstagram,
   FaLinkedin,
-  FaGithub
 } from 'react-icons/fa';
 import { TiCodeOutline } from 'react-icons/ti';
 
@@ -17,12 +16,12 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>LinkedIn</Link>
+            <a className='link' href="https://www.instagram.com/s_fritzsche_/">Instagram</a>
+            <a className='link' href="https://www.linkedin.com/in/sebastian-fritzsche-1393281b1/">LinkedIn</a>
           </div>
           <div className='footer-link-items'>
             <h2>Kontakt</h2>
-            <Link to='/'>E-Mail: sfritzsche148@gmail.com</Link>
+            <a className='link' href="mailto: sfritzsche148@gmail.com">E-Mail: sfritzsche148@gmail.com</a>
           </div>
         </div>
       </div>
@@ -36,36 +35,14 @@ function Footer() {
           </div>
           <small className='website-rights'>Sebastian Fritzsche © 2021</small>
           <div className='social-icons'>
-          <Link
-              className='social-icon-link'
-              to={
-                  '//github.com/sfritzscheTech'
-              }
-              target='_blank'
-              aria-label='GitHub'
-            >
-              <FaGithub />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to={
-                  '//www.instagram.com/s_fritzsche_/'
-              }
-              target='_blank'
-              aria-label='Instagram'
-            >
+          <a className='social-icon-link'
+           href="https://www.instagram.com/s_fritzsche_/">
               <FaInstagram />
-            </Link>
-            <Link
-              className='social-icon-link'
-              to= {
-                  '//www.linkedin.com/in/sebastian-fritzsche-1393281b1/'
-              }
-              target='_blank'
-              aria-label='LinkedIn'
-            >
+              </a>
+              <a className='social-icon-link'
+               href="https://www.linkedin.com/in/sebastian-fritzsche-1393281b1/">
               <FaLinkedin />
-            </Link>
+              </a>
           </div>
         </div>
       </section>

@@ -11,17 +11,39 @@
 
 .second__title {
     text-align: center;
-    padding-top: 3%;
+    padding-top: 1cm;
     padding-bottom: 1%;
     font-size: 30px;
 }
 
+.third__title {
+    text-align: center;
+    padding: 1.8%;
+}
+
 .main__bild {
     padding: 2cm;
+    height: 800px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.hobbie__bild {
+    padding: auto;
     height: 500px;
     width: 500px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 2%;
+}
+.programm__bild {
+    padding: auto;
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2%;
 }
 
 .about__text {
@@ -29,8 +51,22 @@
     text-align: center;
     color: white;
     font-size: 20px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
 }
-
+.text {
+    padding: 0.12%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.description__text {
+    padding: 0.12%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
  .about__linkedin {
      color: white;
      text-align: center;
@@ -39,8 +75,12 @@
      padding-bottom: 2%;
  }
 
-.link {
-    color: white;
+ .link {
+     color: white;
+ }
+
+.link:hover {
+    color: #f00946;
 }
 
 .about__list {
@@ -50,4 +90,33 @@
 }
 .button {
     padding-right: 9%;
+}
+@media screen and (max-width: 570px) {
+
+    .about__text{
+        padding-top: 6%;
+        padding-bottom: 8%;
+    }
+    .description__text{
+        padding-bottom: 5%;
+    }
+    .about__list{
+        margin: 6%;
+    }
+    .hobbie__bild{
+        margin: 1%;
+
+    }
+    .programm__bild{
+        height: 300px;
+        margin: 1%;
+    }
+    .third__title{
+        padding: 7%;
+        padding-top: 9%;
+    }
+    .main__bild{
+        height: 500px;
+        width: 500px;
+    }
 }
