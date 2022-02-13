@@ -1,16 +1,15 @@
 import React from 'react';
-import HeroSection from '../HeroSection';
-import { homeObjOne, homeObjThree } from './Data';
+import './Home.css';
 
 function Home() {
-    return (
-        <>
-            <h1 className='welcome__back'>WELCOME</h1>
-            <HeroSection {...homeObjThree} />
-            <HeroSection {...homeObjOne}   />
+  return (
+    <div className='home'>
+      <h1 className='textheader'>Hi,</h1>
+      <h1 className='textheader1'>Ich bin Sebastian</h1>
+      
 
-        </>
-    )
+    </div>
+  )
 }
 
 export default Home;
