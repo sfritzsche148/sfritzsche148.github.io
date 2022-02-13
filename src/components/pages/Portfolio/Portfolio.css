@@ -1,0 +1,30 @@
+.portfolio__page {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.portfolio__title {
+    font-size: 92px;
+    padding: 3%;
+    text-align: center;
+}
+
+.portfolio__link {
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    padding: 00.12%;
+    padding-bottom: 18%;
+    padding-top: 10%;
+}
+
+.portfolio__link:hover{
+    color: #f00946;
+}
+
+
+@media screen and (max-width: 570px) {
+    .portfolio__title {
+        font-size: 80px;
+    }
+}

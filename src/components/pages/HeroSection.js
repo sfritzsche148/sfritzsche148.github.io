@@ -3,7 +3,7 @@ import './HeroSection.css';
 import { Link } from 'react-router-dom';
 
 function HeroSection({
-    lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart
+    lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart, link
 }) {
     return (
         <div className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}>
@@ -12,7 +12,7 @@ function HeroSection({
                     <div className="col">
                         <div className="home__hero-text-wrapper">
                             <h1 className={lightText ? 'heading' : 'heading dark'}>{headline}</h1>
-                            <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>Dann klicken sie <Link to="/About" className="hero__link">hier</Link></p>
+                            <p className={lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description} <Link to={link} className="hero__link">hier</Link></p>
                     </div>
                     </div>
                     <div className="col">
