@@ -10,7 +10,7 @@ function Portfolio() {
           <ul>
             <li>
               <div className="timeline-content">
-                <h1>TicTacToe</h1>
+                <h1><a className='link' href='https://sfritzsche-tictactoe.netlify.app/'>TicTacToe</a></h1>
                 <p>Das ist eine React App mit styled Components</p>
               </div>
             </li>

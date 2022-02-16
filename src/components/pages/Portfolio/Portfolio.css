@@ -5,6 +5,10 @@
     font-size: 92px;
 }
 
+.link {
+    color: white;
+}
+
 * {
     margin: 0;
     padding: 0;
