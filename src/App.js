@@ -6,7 +6,7 @@ import Home from './components/pages/HomePage/Home';
 import Footer from './components/pages/Footer/Footer';
 import About from './components/pages/About/About';
 import Portfolio from './components/pages/Portfolio/Portfolio';
-import TicTacToe from './components/pages/Portfolio/post/TicTacToe/TicTacToe';
+
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
         <Route path='/' exact component={Home}/>
         <Route path='/About' component={About}/>
         <Route path='/Portfolio' component={Portfolio}/>
-        <Route path='/TicTacToe' component={TicTacToe}/>
       </Switch>
       <Footer />
     </Router>

@@ -4,17 +4,17 @@ import './Navbar.css';
 import { TiCodeOutline } from 'react-icons/ti';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
+import { BsSun, BsMoonFill } from "react-icons/bs";
 
 function Navbar() {
     const [click, setClick] = useState(false);
 
-  
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
 
   return (
-    <>
+    <div >
       <IconContext.Provider value={{ color: '#fff' }}>
         <nav className='navbar'>
           <div className='navbar-container container'>
@@ -47,11 +47,13 @@ function Navbar() {
                   Portfolio
                 </Link>
               </li>
+
             </ul>
+            
           </div>
         </nav>
       </IconContext.Provider>
-    </>
+    </div>
   );
 }
 
