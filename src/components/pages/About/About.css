@@ -91,7 +91,7 @@
 .button {
     padding-right: 9%;
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 507px) {
 
     .about__text{
         padding-top: 6%;
@@ -105,10 +105,11 @@
     }
     .hobbie__bild{
         margin: 1%;
-
+        width: 350px;
     }
     .programm__bild{
         height: 300px;
+        width: 350px;
         margin: 1%;
     }
     .third__title{
@@ -116,7 +117,11 @@
         padding-top: 9%;
     }
     .main__bild{
-        height: 500px;
-        width: 500px;
+        height: 400px;
+        width: 350px;
+    }
+    .about__page {
+        background-color: #2c2c2c;
+        color: white;
     }
 }
