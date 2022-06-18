@@ -14,6 +14,12 @@ function Portfolio() {
                 <p>Das ist eine React App mit styled Components</p>
               </div>
             </li>
+            <li>
+              <div className="timeline-content">
+                <h1><a className='link' href=''>Portfolio</a></h1>
+                <p>Das ist eine React App mit styled Components</p>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
