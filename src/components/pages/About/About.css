@@ -83,14 +83,43 @@
     color: #f00946;
 }
 
-.about__list {
-    text-align: center;
-    padding: 0.12%;
-    font-size: 20px;
-}
+
 .button {
     padding-right: 9%;
 }
+
+.skillset {
+    text-align: center;
+}
+
+.skillsetlist ul li {
+    background-color: #1e1f22;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 220px;
+    list-style: none;
+    float: left;
+    margin: 20px;
+}
+
+
+.skillsetlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillicon {
+    color: white;
+    font-size: 90px;
+    margin: 10px;
+}
+
+.skillicon:hover {
+    color: #f00946;
+}
+
 @media screen and (max-width: 507px) {
 
     .about__text{
@@ -100,9 +129,7 @@
     .description__text{
         padding-bottom: 5%;
     }
-    .about__list{
-        margin: 6%;
-    }
+    
     .hobbie__bild{
         margin: 1%;
         width: 350px;
