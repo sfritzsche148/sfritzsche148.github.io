@@ -68,38 +68,52 @@ function About() {
                     </ul>
                 </div>
             </div>
-            <div>
+            <div className='hobbies'>
                 <h2 className='second__title'>Hobbies</h2>
-                <h3 className='third__title'>programmieren</h3>
-                <img 
-                    className='programm__bild'
-                    src="/images/programmieren.jpg"
-                    alt="hund"
-                />
-                <h3 className='third__title'>mein Hund</h3>
-                <img 
-                    className='hobbie__bild'
-                    src="/images/rocky.jpg"
-                    alt="hund"
-                />
-                <h3 className="third__title">Tennis</h3>
-                <img 
-                    className='hobbie__bild'
-                    src="/images/tennis.jpg"
-                    alt="tennis"
-                />
-                <h3 className='third__title'>Mountainbiken</h3>
-                <img 
-                    className='hobbie__bild'
-                    src="/images/bike.jpg"
-                    alt="bike"
-                />
-                <h3 className='third__title'>Reisen</h3>
-                <img 
-                    className='hobbie__bild'
-                    src="/images/strand.jpg"
-                    alt="strand"
-                />
+                <div className='hobbielist'>
+                    <ul>
+                        <li>
+                            <h3 className='third__title'>programmieren</h3>
+                            <img 
+                                className='programm__bild'
+                                src="/images/programmieren.jpg"
+                                alt=""
+                            />
+                        </li>
+                        <li>
+                            <h3 className='third__title'>mein Hund</h3>
+                            <img 
+                                className='hobbie__bild'
+                                src="/images/rocky.jpg"
+                                alt="hund"
+                            />
+                        </li>
+                        <li>
+                            <h3 className="third__title">Tennis</h3>
+                            <img 
+                                className='hobbie__bild'
+                                src="/images/tennis.jpg"
+                                alt="tennis"
+                            />
+                        </li>
+                        <li>
+                            <h3 className='third__title'>Mountainbiken</h3>
+                            <img 
+                                className='hobbie__bild'
+                                src="/images/bike.jpg"
+                                alt="bike"
+                            />
+                        </li>
+                        <li>
+                            <h3 className='third__title'>Reisen</h3>
+                            <img 
+                                className='hobbie__bild'
+                                src="/images/strand.jpg"
+                                alt="strand"
+                            />
+                        </li>
+                    </ul>
+                </div>
              </div>
             <h2 className='second__title'>Kontakt</h2>
             <p className='about__text'>
