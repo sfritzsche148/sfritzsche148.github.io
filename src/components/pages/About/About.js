@@ -83,8 +83,8 @@ function About() {
                         <li>
                             <h3 className='third__title'>mein Hund</h3>
                             <img 
-                                className='hobbie__bild'
-                                src="/images/rocky.jpg"
+                                className='rocky__bild'
+                                src="/images/rocky_farb.jpeg"
                                 alt="hund"
                             />
                         </li>

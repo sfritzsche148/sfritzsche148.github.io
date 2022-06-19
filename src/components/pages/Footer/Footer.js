@@ -11,10 +11,6 @@ import { TiCodeOutline, TiMail } from 'react-icons/ti';
 function Footer() {
   return (
     <div className='footer-container'>
-      <div className='footer-links'>
-        <div className='footer-link-wrapper'>
-        </div>
-      </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
