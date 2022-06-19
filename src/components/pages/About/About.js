@@ -26,7 +26,7 @@ function About() {
                 <p className='text'>& alles was mit Technik zu tun hat.</p>
             </div>
             <div className='skillset'>
-                <h2 className='second__title'>Skillset</h2>
+            <h2 className='second__title'>Skillset</h2>
                 <div className='skillsetlist'>
                     <ul>
                         <li>
