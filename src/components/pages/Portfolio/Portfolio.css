@@ -66,6 +66,16 @@ html {
     font-weight: 300;
 }
 
+.icon {
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.icon:hover {
+    color: #f00946;
+}
+
 @media only screen and (min-width: 768px) {
     .timeline::before {
         content: '';

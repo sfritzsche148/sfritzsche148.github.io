@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
+import {  FaGithub } from 'react-icons/fa';
 
 function Portfolio() {
   return (
@@ -16,8 +17,12 @@ function Portfolio() {
             </li>
             <li>
               <div className="timeline-content">
-                <h1><a className='link' href=''>Portfolio</a></h1>
-                <p>Das ist eine React App mit styled Components</p>
+                <h1><a className='link' href='https://sfritzsche148.github.io/#/'>Portfolio</a> 
+                <a href="https://github.com/sfritzsche148/sfritzsche148.github.io" className='icon'>
+                  <FaGithub />
+                </a>
+                </h1>
+                <p>Ich habe mein Portfolio mit React entwickelt. In diesem können sie etwas über mich erfahren.</p>
               </div>
             </li>
           </ul>
