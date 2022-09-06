@@ -18,7 +18,7 @@ function About() {
                 <p className='text'>
                     Hi, ich bin Sebastian
                 </p>
-                <p className='text'>und Schüler der 9. Klasse</p>
+                <p className='text'>und Schüler der 10. Klasse</p>
                 <p className='description__text'>an einer bayrischen Realschule.</p>
                 <p className='text'>
                 Ich liebe Sport
