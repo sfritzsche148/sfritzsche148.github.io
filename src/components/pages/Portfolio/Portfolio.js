@@ -4,15 +4,21 @@ import {  FaGithub } from 'react-icons/fa';
 
 function Portfolio() {
   return (
+    
     <div>
+    
        <h1 className="portfolio-header">Portfolio</h1>
       <div className="portfolio-container">
         <div className="timeline">
           <ul>
             <li>
-              <div className="timeline-content">
-                <h1><a className='link' href='https://sfritzsche-tictactoe.netlify.app/'>TicTacToe</a></h1>
-                <p>Das ist eine React App mit styled Components</p>
+            <div className="timeline-content">
+                <h1><a className='link' href='https://sfritzsche148.github.io/text-adventure_der-geisterwald/'>Text Adventure</a> 
+                <a href="https://github.com/sfritzsche148/text-adventure_der-geisterwald" className='icon'>
+                  <FaGithub />
+                </a>
+                </h1>
+                <p>Ich habe ein Text Adventure mit HTML, Css und Javascript gebaut</p>
               </div>
             </li>
             <li>
